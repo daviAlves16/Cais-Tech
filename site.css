@@ -1,0 +1,421 @@
+body{
+    background-image: url('img/background2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#menu{
+    box-shadow: 2px 1px rgba(141, 141, 141, 0.7);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+@media (max-width: 1024px){
+    #menu{
+        background: linear-gradient(rgb(19, 18, 18),rgb(19, 19, 19),rgb(27, 27, 27), rgb(37, 37, 37));
+            box-shadow: 2px 1px rgba(197, 197, 197, 0.7);
+            position: relative;
+        }
+     }
+
+#menuzinho{
+    background-color: rgb(128, 128, 128);
+    margin: 0px;
+    font-size: 18px;
+}     
+
+.textMenu{
+    color: white;
+    font-family: 'Squada One', cursive;
+    
+}
+
+#listaNavegacao{
+    margin-left: 30%;
+}
+.margensList{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px ;
+}
+
+.mudarCorMenu{
+   /* background-color: rgb(22, 22, 22);*/
+    background: linear-gradient(rgb(19, 18, 18),rgb(19, 19, 19),rgb(27, 27, 27), rgb(37, 37, 37));
+    -webkit-transition: 0.2s ease-out;
+    -moz-transition: 0.2s ease-out;
+    -o-transition: 0.2s ease-out;
+    transition: 0.2s ease-out;
+}
+
+#imgLogo{
+    margin: 20px;
+    margin-left: 5%;
+}
+#cont1{
+    padding-bottom: 2%; 
+}
+#div2{
+    height: 600px; 
+    
+}
+#divMarginMenu1{
+    height: 200px;
+}
+#divMarginMenu2{
+    height: 100px;
+}
+#titulo1{
+    font-size: 100px;
+    margin-top: 30px;
+
+}
+#titulo2{
+    font-size: 50px;
+}
+#butaoInscreva{
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+}
+button.css3button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #ffffff;
+    padding: 10px 20px;
+    width: 100%;
+    font-family: 'Squada One', cursive;
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#a3a3a3),
+		color-stop(0.50, #3b3b3b),
+		color-stop(0.50, #242424),
+		to(#000000));
+	background: linear-gradient(
+		top,
+		#a3a3a3 0%,
+		#3b3b3b 50%,
+		#242424 50%,
+		#000000);
+	border-radius: 15px;
+	border: 1px solid #5e5e5e;
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.6);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,1),
+		0px 1px 0px rgba(255,255,255,0.2);
+}
+#linha1{ 
+   padding-bottom: 10px;
+}
+#linha2{ 
+    padding-bottom: 5px;
+}
+#linha3{
+    height: 80px; 
+   
+}
+@media (max-width:1324px){
+    #titulo1{
+        font-size: 70px;
+        margin-top: 30px;
+    
+    }  
+}
+@media (max-width: 1024px){
+    #divMarginMenu1{
+        height: 140px;
+    }
+    #cont1{
+        padding-bottom: 120px;
+    }
+    #div2{
+        height: 500px;
+    }
+    #titulo1{
+        margin-top: 20px;
+        font-size: 600%;
+    }
+    
+    #titulo2{
+        font-size: 300%;
+    }
+    #butaoInscreva{
+        font-size: 150%;
+        height: 70px;
+        margin-top: 10px;
+        
+    }
+}
+
+
+
+@media (max-width: 540px){
+    
+    #titulo1{
+        margin-top: 20px;
+        font-size: 500%;
+    }
+    #titulo2{
+        font-size: 200%;
+    }
+    #divMarginMenu1{
+        height: 100px;
+    }
+    #butaoInscreva{
+        font-size: 100%;
+        margin-top: 10px;
+        padding-bottom: 5px;
+        
+    }
+}
+@media (max-width: 320px){
+    #titulo1{
+        margin-top: 20px;
+        font-size: 300%;
+    }
+    #divMarginMenu1{
+        height: 140px;
+    }
+}
+
+
+
+.fonte{
+    font-family: 'Squada One', cursive;
+}
+.fonte2{
+    font-family: 'Pridi', serif;
+    font-size: 18px; 
+}
+#cont2{
+    padding-top: 60px;
+    background-color: rgb(207, 205, 205);
+    height: 680px;
+}
+#logoCerebro{
+    margin-left: -5%;
+    margin-top: 10px;
+}
+#evento{
+    border-bottom: 4px solid rgb(33, 155, 185);
+    text-align: center;
+}
+@media (max-width: 1200px){
+    
+    #divLogoCerebro{
+        display: none;
+        
+    }
+}
+@media (max-width: 500px){
+    #cont2{
+        height: 950px;
+    }
+}
+#cont3{
+    background-image: url('img/fundo2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#programacao{
+    text-align: center;
+    border-bottom: 4px solid rgb(33, 155, 185);
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    
+}
+#prog{
+    margin-top: 8%; 
+    font-family: 'Squada One', cursive; 
+    font-size: 40px;
+    color: white;
+}
+@media (max-width: 500px){
+    #prog{
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 800px){
+    .retira{
+        display: none;
+    }
+    .mudarCor:hover{
+        background-color: black;
+        border-bottom: 1px solid rgb(255, 255, 255);
+        border-top: 1px solid rgb(255, 255, 255);
+    }
+
+}
+.alinharTexto{
+    text-align: center;
+    margin-top: 20%;
+    color: white;
+}
+.bordaDias{
+    border-left: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
+}
+.bordaDia{
+    border-right: 1px solid rgb(255, 255, 255);
+}
+.bordaCimaBaixo{
+    border-top: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.textoComplementar{
+    font-family: 'Pridi', serif; 
+    font-size: 15px;
+    color: white;
+}
+.mudar:hover {
+    background-color: #2c2c2c;
+  }
+
+  #cont4{
+    background-color: white;
+    padding-bottom: 10px;
+    background-image: url('img/redes2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#maratona{
+    border-bottom: 4px solid rgb(33, 155, 185);
+    text-align: center;
+    margin-top: 40px;
+}
+#pc{
+    margin-top: 100px;
+    margin-left: 15%;
+}
+@media (max-width: 1200px){
+    
+    #divPc{
+        display: none;
+        
+    }
+}
+@media (max-width: 500px){
+    
+    #cont4{
+        height: 850px;
+        
+    }
+}
+
+#cont5{
+    background-color: white;
+    padding-bottom: 10px;
+    padding-bottom: 10%;
+   /* background-image: url('img/artigos.jpg');*/
+    background-image: linear-gradient(rgb(19, 18, 18),rgb(13, 13, 19),rgb(11, 11, 51), rgb(8, 6, 114));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#orientacaoArtigos{
+    border-bottom: 4px solid rgb(33, 155, 185);
+    text-align: center;
+    margin-top: 40px;
+}
+#cont6{
+    padding-bottom: 10px;
+    height: 500px;
+
+   background-image: url('img/redes4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.titulos{
+    border-bottom: 4px solid rgb(33, 155, 185);
+    text-align: center;
+    margin-top: 40px;
+}
+
+#cont7{
+    padding-bottom: 50px;
+
+    background-color: white;
+   /* background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+}
+#cardss{
+    
+    border-left: 0px;
+    border-right: 0px;
+}
+.tamamhoFPer{
+    font-size: 30px;
+}
+
+#cont8{
+    padding-bottom: 50px;
+    background-image: url('img/fundo3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.imgpatrocinio{
+    margin-right: 1px;
+    margin-bottom: 10px;
+    height: 150px;
+}
+    
+#cont9{
+    padding-bottom: 50px;
+    background-color: white;
+    /*background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+}
+.textFormulario{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.caixasDeTexto{
+    background-color: rgb(223, 223, 223);
+    width: 100%;
+    font-family: 'Pridi', serif;
+}
+footer{
+    padding-bottom: 10px;
+    background-color: black;
+    padding-top: 6%;
+}
+.tituloFooter{
+    font-size: 25px;
+    color: white;
+    padding-bottom: 35px;
+}
+.textoFooter{
+    color: rgb(173, 173, 173);
+    font-size: 15px;
+}
+.textoDestaque{
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 16px;
+}
+#divContFoot{
+    border-bottom: 1px solid rgb(73, 73, 73);
+    padding-bottom: 3%;
+}
+.paddingDivsFoot{
+    padding-bottom: 2%;
+}
+#gabacao{ 
+    margin-top: 2%;
+    color: rgb(163, 163, 163);
+}
+.links:link{
+    text-decoration:none;
+}
